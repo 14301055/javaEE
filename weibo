@@ -1,0 +1,8 @@
+package Picture;
+import javax.print.PrintService;
+import org.springframework.web.multipart.MultipartFile;
+   public abstract class Picture implements PrintService {  
+          int uploadPicture(MultipartFile multipartFile){  
+                return 0; 
+            } 
+            }
